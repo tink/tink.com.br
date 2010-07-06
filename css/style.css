@@ -1,0 +1,12 @@
+body { color:#444;font-family:Trebuchet,"Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
+
+a img {border:0;}
+
+#header {background-color:black;height:50px;}
+
+/* index */
+.panel h2{margin-bottom:0;color:#333;font-size:20px;}
+.panel h3{margin:0 0 5px 0;color:#AAA;font-size:13px;font-weight:bold;}
+.panel p.description{font-size:12px;}

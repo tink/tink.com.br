@@ -1,7 +1,7 @@
 var gOverride = {
   urlBase: 'http://gridder.andreehansson.se/releases/latest/',
   gColor: 'red',
-  gColumns: 12,
+  gColumns: 16,
   gOpacity: 0.25,
   gWidth: 10,
   pColor: '#C0C0C0',
