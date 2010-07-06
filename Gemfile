@@ -1,6 +1,7 @@
+source "http://gems.github.com"
+gem "henrik-jekyll", "0.5.2"
+
 source :gemcutter
-gem "jekyll"
-gem "jekyll_ext"
 gem "haml"
 gem "compass"
 gem "juicer"
