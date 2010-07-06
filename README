@@ -32,3 +32,6 @@ juicer install jslint
 ** To deploy it:
 
 rake deploy
+
+
+In order to generate jekyll website with extensions (like haml) use ejekyll, no jekyll
