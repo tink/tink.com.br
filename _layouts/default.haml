@@ -16,8 +16,11 @@
           %a(href='/')
             %img(src='/images/tink-logo.jpg')
     .clear
-    .container_20
-      = content
+    #body
+      .container_20
+        = content
+    .clear
+    #footer
 
     %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
 
@@ -28,3 +31,4 @@
     - if variable(:javascript)
       %script{:type => 'text/javascript'}
         = variable(:javascript)
+
