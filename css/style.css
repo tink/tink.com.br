@@ -5,13 +5,14 @@ h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
 a img {border:0;}
 
 .left {text-align:right;}
-a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:right;}
 
 #header {background-color:black;height:50px;}
 
 #body {margin-bottom: 15px;}
 #footer {margin-top: 15px;}
 
+
+a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:right;}
 /* index */
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
