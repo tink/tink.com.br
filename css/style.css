@@ -7,20 +7,22 @@ a img {border:0;}
 .left {text-align:right;}
 
 #header {background-color:black;height:50px;}
+#logo {padding-left:15px;}
 
 #body {margin-bottom: 15px;}
 #footer {margin-top: 15px;}
-
 
 a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:right;}
 /* index */
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
+.panel h4{font-size:15px;margin-bottom:5px;}
 .panel p.description{font-size:12px; margin-bottom:5px;}
 
 .double_panel {padding: 0 45px 0 15px;}
 
-.border-right {border-left:1px solid #CCC;}
+.border-right {border-right:1px solid #CCC;}
+.border-left {border-left:1px solid #CCC;}
 
 hr.line {border:1px 0 0 0 solid #CCC; margin:0;}
