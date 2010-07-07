@@ -25,6 +25,8 @@ a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:righ
 .link_to_fade {cursor:pointer;}
 
 .double_panel {padding: 0 45px 0 15px;}
+.separator {border-bottom:1px solid #CCC;}
+.back-to-home {text-align: center;}
 
 .border-right {border-right:1px solid #CCC;}
 .border-left {border-left:1px solid #CCC;}
