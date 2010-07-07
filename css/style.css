@@ -14,15 +14,12 @@ a img {border:0;}
 
 a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:right;}
 
-.not_main {display:none;}
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
 .panel h2 a{color:#333;text-decoration:none;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
 .panel h4{font-size:15px;margin-bottom:5px;}
 .panel p.description{font-size:12px; margin-bottom:5px;}
-
-.link_to_fade {cursor:pointer;}
 
 .double_panel {padding: 0 45px 0 15px;}
 .separator {border-bottom:1px solid #CCC;}
