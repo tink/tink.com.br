@@ -14,7 +14,7 @@ a img {border:0;}
 
 a.read_more { font-size:12px; text-decoration:none;color:#2786C2;text-align:right;}
 
-#o-que-fazemos {display:none;}
+.not_main {display:none;}
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
 .panel h2 a{color:#333;text-decoration:none;}
