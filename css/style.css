@@ -19,14 +19,14 @@ a img {border:0;}
 .panel img {border: 1px solid #DDD; padding:5px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
 .panel h4{font-size:15px;margin-bottom:5px;}
-.panel p.description{font-size:12px; margin-bottom:5px;}
-.panel .description a {font-size:14px; font-weight:bold;}
-.panel#como .description a {color:#3a9;}
-.panel#como .description a:hover {color:#187;}
-.panel#quem .description a {color:#f33;}
-.panel#quem .description a:hover {color:#c11;}
-.panel#o-que .description a {color:#37d;}
-.panel#o-que .description a:hover {color:#15a;}
+.panel p {font-size:12px; margin-bottom:5px;}
+.panel p a {font-size:14px; font-weight:bold;}
+.panel#como p a {color:#3a9;}
+.panel#como p a:hover {color:#187;}
+.panel#quem p a {color:#f33;}
+.panel#quem p a:hover {color:#c11;}
+.panel#o-que p a {color:#37d;}
+.panel#o-que p a:hover {color:#15a;}
 
 .back-to-home {text-align: center;}
 
