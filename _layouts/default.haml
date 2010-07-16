@@ -10,16 +10,17 @@
     - %w(reset text 960 style).each do |css_file|
       = css_tag("#{css_file}.css")
   %body
-    #header
-      .container_20
-        .grid_4
-          %a(href='/')
-            %img(src='/images/tink-logo.png' id='logo')
-    .clear
-    #body
-      .container_20
-        = content
-    .clear
+    #wrap
+      #header
+        .container_20
+          .grid_4
+            %a(href='/')
+              %img(src='/images/tink-logo.png' id='logo')
+      .clear
+      #content
+        .container_20
+          = content
+        .clear
     #footer
       .container_20
         .grid_20

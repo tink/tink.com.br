@@ -9,8 +9,9 @@ a img {border:0;}
 #header {background-color:black;min-height:70px;}
 #logo {padding-left:15px; padding-top: 10px;}
 
-#body {margin-bottom: 15px;}
-#footer {margin-top: 15px;}
+#wrap {min-height:100%;}
+#content {overflow:auto;padding-bottom:120px;}
+#footer {background-color:#ddd;position:relative;margin-top:-120px;height:120px;clear:both;}
 
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
