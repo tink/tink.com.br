@@ -6,8 +6,8 @@ a img {border:0;}
 
 .left {text-align:right;}
 
-#header {background-color:black;height:50px;}
-#logo {padding-left:15px;}
+#header {background-color:black;min-height:70px;}
+#logo {padding-left:15px; padding-top: 10px;}
 
 #body {margin-bottom: 15px;}
 #footer {margin-top: 15px;}
