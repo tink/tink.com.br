@@ -16,12 +16,12 @@ a img {border:0;}
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
 .panel h2 a{color:#333;text-decoration:none;}
-.panel h2 a:hover {text-decoration:underline;}
+.panel a:hover {text-decoration:underline;}
 .panel img {border: 1px solid #DDD; padding:5px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
 .panel h4{font-size:15px;margin-bottom:5px;}
 .panel p {font-size:12px; margin-bottom:5px;}
-.panel p a {font-size:14px; font-weight:bold;}
+.panel p a {font-weight:bold;text-decoration:none;}
 .panel#como p a {color:#3a9;}
 .panel#como p a:hover {color:#187;}
 .panel#quem p a {color:#f33;}
