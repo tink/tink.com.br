@@ -2,6 +2,8 @@ body { color:#444;font-family:Trebuchet,"Lucida Sans Unicode","Lucida Grande","L
 
 h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
 
+hr { margin: 7px;}
+
 a img {border:0;}
 
 .left {text-align:right;}
@@ -15,23 +17,20 @@ a img {border:0;}
 
 .panel {padding:0 15px; margin-top:15px;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
-.panel h2 a{color:#333;text-decoration:none;}
-.panel a:hover {text-decoration:underline;}
 .panel img {border: 1px solid #DDD; padding:5px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
 .panel h4{font-size:15px;margin-bottom:5px;}
 .panel p {font-size:12px; margin-bottom:5px;}
-.panel p a {font-weight:bold;text-decoration:none;font-size:1.3em;}
-.panel#como p a {color:#3a9;}
-.panel#como p a:hover {color:#187;}
-.panel#quem p a {color:#f33;}
-.panel#quem p a:hover {color:#c11;}
-.panel#o-que p a {color:#37d;}
-.panel#o-que p a:hover {color:#15a;}
+.panel p span {font-weight:bold;font-size:1.3em;}
+.panel#como p span {color:#3a9;}
+.panel#quem p span {color:#f33;}
+.panel#o-que p span {color:#37d;}
 
 .back-to-home {text-align: center;}
 
 .border-right {border-right:1px solid #CCC;}
 .border-left {border-left:1px solid #CCC;}
 
-hr.line {border:1px 0 0 0 solid #CCC; margin:0;}
+input, textarea {display: block; margin: 4px;}
+
+.margeado {margin-top: 20px;}
