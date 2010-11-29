@@ -1,6 +1,6 @@
 body { color:#444;font-family:Trebuchet,"Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;}
 
-h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
+h1, h2, h3, h4, h5, h6, a {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
 
 hr { margin: 7px;}
 
@@ -8,7 +8,7 @@ a img {border:0;}
 
 .left {text-align:right;}
 
-#header {background-color:black;min-height:70px;}
+#header {background-image:url(../images/menu-bg.png);min-height:70px;}
 #logo {padding-left:15px; padding-top: 10px;}
 
 #wrap {min-height:100%;}
@@ -34,3 +34,7 @@ a img {border:0;}
 input, textarea {display: block; margin: 4px;}
 
 .margeado {margin-top: 20px;}
+
+ul.horizontal {list-style-type: none; clear: left;}
+ul.horizontal li {margin-top: 20px; float: left;}
+ul.horizontal li a {color: gold; text-decoration: none; padding-right: 20px; font-size: 16px; font-weight: bold;}
