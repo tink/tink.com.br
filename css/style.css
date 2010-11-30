@@ -19,7 +19,7 @@ a img {border:0;}
 .panel h2{margin-bottom:0;color:#333;font-size:20px;}
 .panel img {border: 1px solid #DDD; padding:5px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
-.panel h4{font-size:15px;margin-bottom:5px;}
+.panel h4{margin-bottom: 5px; padding-top: 20px;color:#AAA;font-size:12px;font-weight:bold;clear:left;}}
 .panel p {font-size:12px; margin-bottom:5px;}
 .panel p span {font-weight:bold;font-size:1.3em;}
 .panel#como p span {color:#3a9;}
@@ -35,6 +35,7 @@ input, textarea {display: block; margin: 4px;}
 
 .margeado {margin-top: 20px;}
 
+ul.menu {margin-top: 20px;}
 ul.horizontal {list-style-type: none; clear: left;}
-ul.horizontal li {margin-top: 20px; float: left;}
+ul.horizontal li {float: left;}
 ul.horizontal li a {color: gold; text-decoration: none; padding-right: 20px; font-size: 16px; font-weight: bold;}

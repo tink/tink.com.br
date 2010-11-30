@@ -17,7 +17,7 @@
             %a(href='/')
               %img(src='/images/tink-logo-t.png' id='logo')
           .grid_16.omega
-            %ul.horizontal
+            %ul.menu.horizontal
               %li
                 - site.posts.each do |post|
                   %li{ :class => "#{'current' if(page.title == post.title)}" }
