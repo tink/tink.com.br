@@ -1,5 +1,12 @@
 body { color:#444;font-family:Trebuchet,"Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;}
 
+td, th { padding: 5px 10px; }
+tr th { background-color: #DDD; }
+table { border: solid black 1px; }
+
+a:link, a:visited { text-decoration: none; color: red }
+a:hover { text-decoration: underline; }
+
 h1, h2, h3, h4, h5, h6, a {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;}
 
 hr { margin: 7px;}
@@ -16,10 +23,10 @@ a img {border:0;}
 #footer {background-color:#ddd;position:relative;margin-top:-120px;height:120px;clear:both;}
 
 .panel {padding:0 15px; margin-top:15px;}
-.panel h2{margin-bottom:0;color:#333;font-size:20px;}
+.panel h2{margin-bottom:0;color:#333;font-size:20px; clear: left;}
 .panel img {border: 1px solid #DDD; padding:5px;}
 .panel h3{margin:0 0 5px 0;color:#AAA;font-size:12px;font-weight:bold;}
-.panel h4{margin-bottom: 5px; padding-top: 20px;color:#AAA;font-size:12px;font-weight:bold;clear:left;}}
+.panel h4{margin-bottom: 5px; padding-top: 20px;color:#AAA;font-size:12px;font-weight:bold;clear:left;}
 .panel p {font-size:12px; margin-bottom:5px;}
 .panel p span {font-weight:bold;font-size:1.3em;}
 .panel#como p span {color:#3a9;}
@@ -38,4 +45,4 @@ input, textarea {display: block; margin: 4px;}
 ul.menu {margin-top: 20px;}
 ul.horizontal {list-style-type: none; clear: left;}
 ul.horizontal li {float: left;}
-ul.horizontal li a {color: gold; text-decoration: none; padding-right: 20px; font-size: 16px; font-weight: bold;}
+ul.horizontal li a {color: gold; padding-right: 20px; font-size: 16px; font-weight: bold;}
